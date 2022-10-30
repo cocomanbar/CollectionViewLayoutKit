@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CollectionViewLayoutKit_Example' do
+  pod 'CollectionViewLayoutKit', :path => '../'
+  pod 'MJRefresh'
+  pod 'SnapKit', '5.0.1'
+  
+  target 'CollectionViewLayoutKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

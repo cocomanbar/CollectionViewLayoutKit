@@ -1,0 +1,27 @@
+PODS:
+  - CollectionViewLayoutKit (1.0.0)
+  - MJRefresh (3.7.2)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - CollectionViewLayoutKit (from `../`)
+  - MJRefresh
+  - SnapKit (= 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - MJRefresh
+    - SnapKit
+
+EXTERNAL SOURCES:
+  CollectionViewLayoutKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CollectionViewLayoutKit: a169a5fbafd5c378237c0fea1c1150f8fb7b2d99
+  MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: eb869e507329af5f29d08a8e9a362c2e5960c5f0
+
+COCOAPODS: 1.11.3
